@@ -1,0 +1,17 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Project Directory #
+/target/
+
+# IntelliJ IDEA Project Files #
+*.ipr
+*.iws
+*.iml
+
+# IntelliJ IDEA Project Directory #
+/.idea/
