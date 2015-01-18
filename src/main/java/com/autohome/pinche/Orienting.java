@@ -6,6 +6,7 @@ package com.autohome.pinche;
 public abstract class Orienting {
 
     protected final Line line;
+    protected boolean isHome;
 
     protected Orienting(Line line) {
         this.line = line;

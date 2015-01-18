@@ -11,19 +11,17 @@ public class Line implements Serializable {
 
     private static final long serialVersionUID = -1475120943921072414L;
     private Endpoint home;
-    private long homeTime;
-    private long companyTime;
+    private String homeTime;
+    private String companyTime;
     private Endpoint company;
     private int jam;    //拥堵指数
 
-    public void setHome(Endpoint home, long homeTime) {
+    public void setHome(Endpoint home, String homeTime) {
         this.home = home;
         this.homeTime = homeTime;
-        Calendar now= Calendar.getInstance();
-        now.get(Calendar.HOUR_OF_DAY);
     }
 
-    public void setCompany(Endpoint company, long companyTime) {
+    public void setCompany(Endpoint company, String companyTime) {
         this.company = company;
         this.companyTime = companyTime;
     }
@@ -40,11 +38,11 @@ public class Line implements Serializable {
         return jam;
     }
 
-    public long getHomeTime() {
+    public String getHomeTime() {
         return homeTime;
     }
 
-    public long getCompanyTime() {
+    public String getCompanyTime() {
         return companyTime;
     }
 }

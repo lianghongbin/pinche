@@ -5,5 +5,5 @@ package com.autohome.pinche.algorithm;
  */
 public interface Similarity {
 
-    public float ratio()
+    public float ratio();
 }

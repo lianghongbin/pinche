@@ -13,9 +13,9 @@ public interface Boundary {
     /**
      * 计算给定坐标一定范围内的坐标点的经纬度范围
      * @param endpoint 给定坐标点
-     * @param raidus 距离范围
+     * @param radius 距离范围
      * @return 经纬度范围
      * @throws CalculateException
      */
-    public Range calculate(Endpoint endpoint, int raidus) throws CalculateException;
+    public Range calculate(Endpoint endpoint, int radius) throws CalculateException;
 }
